@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Цвета CSS</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="stylesheet" href="styles.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+</head>
+<body>
+<center><h1 id="hellotext">Выбери цвет и посмотри его CSS код!</h1> </center>
+<div class="allcolors">
+    <div class="maincolors">
+        <label>Обычные цвета</label>
+        <p></p>
+        <button id="black" onclick="black()">Чёрный</button>
+        <button id="grey" onclick="grey()">Серый</button>
+        <button id="silver" onclick="silver()">Серебристый</button>
+        <button id="white" onclick="white()">Белый</button>
+        <button id="pink" onclick="pink()">Розовый</button>
+        <button id="purple" onclick="purple()">Фиолетовый</button>
+        <button id="red" onclick="red()">Красный</button>
+        <button id="black-red" onclick="blackred()">Тёмно-красный</button>
+        <button id="yellow" onclick="yellow()">Жёлтый</button>
+        <button id="olive" onclick="olive()">Оливковый</button>
+        <button id="lime" onclick="lime()">Лаймовый</button>
+        <button id="green" onclick="green()">Зелёный</button>
+        <button id="aqua" onclick="aqua()">Аква</button>
+        <button id="teal" onclick="teal()">Бирюзовый</button>
+        <button id="blue" onclick="blue()">Синий</button>
+        <button id="black-blue" onclick="blackblue()">Тёмно-синий</button>
+        <button id="brown" onclick="brown()">Коричневый</button>
+    </div>
+</div>
+<hr>
+<center><p id="out"></p></center>
+<hr>
+<button onclick="
+var text = document.getElementById('out');
+text.innerHTML = ''" id="clearbtn">ОТЧИСТИТЬ</button>
+
+<p>💰Поддержать автора (Сбербанк): +7-(905)-515-28-08💰</p>
+<p></p>
+
+<script src="app.js"></script>
+</body>
+</html>
